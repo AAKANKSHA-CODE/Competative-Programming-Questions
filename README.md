@@ -1,1 +1,1 @@
-# Competative-Programmin-Question
+# Competative-Programmin-Questions
