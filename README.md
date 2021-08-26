@@ -1,1 +1,1 @@
-# Competative-Programmin-Questions are solved here.
+# Competative-Programming-Questions are solved here.
