@@ -16,3 +16,14 @@ int main()
    cout<<"3rd max = "<<maxx<<"    3rd min = "<<minn;
    
 }
+
+kth largest
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        sort(nums.begin(),nums.end());
+        int n=nums.size();
+        int min=nums[k-1];
+        return nums[n-k];
+    }
+};
