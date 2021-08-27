@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   #ifndef ONLINE_JUDGE
+   freopen("input.txt","r",stdin); 
+    freopen("q.txt","w",stdout); 
+    #endif
+
+    int arr[]{12,2,13,434,65,76};
+    int n=5,k=3;
+    sort(arr,arr+n);
+   int minn=arr[k-1],maxx=arr[n+1-k];
+   
+   cout<<"3rd max = "<<maxx<<"    3rd min = "<<minn;
+   
+}
